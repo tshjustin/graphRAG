@@ -30,7 +30,7 @@ def draw_bounding_box(image_path: str, embedding_body):
   '''
   Draw bounding box on detected faces
 
-  Returns the mapping of colored boxes to recognized personnel (Manual Labelling) 
+  Returns the mapping of colored boxes to recognized personnel 
   '''
   image = Image.open(image_path)
   draw = ImageDraw.Draw(image)
@@ -61,7 +61,7 @@ if __name__ == "__main__":
   output_file = "/home/tjustin/deepface/graph-rag/face_entity.json"
 
   for image in images: 
-    print(f"Exracting and drawing for {image}")
+    print(f"extract and draw for {image}")
     faces_embeddings = extract_faces(image)
     color_embedding_map = draw_bounding_box(image, faces_embeddings)
 
