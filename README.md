@@ -4,7 +4,7 @@
 ## Overview
 Understanding and replication of GraphRAG with an extention to the multimodal space - Specifically incoporating visual images of recognized entites in news articles. 
 
-## Step 1 - Locally hosted LLM  
+## Locally hosted LLM  
 In the orignal GraphRag, OpenAI LLM Models are used that require payments (Although it gives accurate results in terms of entities extracted and descriptions of communites). 
 
 For locally hosted LLM using Ollama: https://github.com/TheAiSingularity/graphrag-local-ollama. 
